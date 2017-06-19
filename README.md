@@ -18,7 +18,7 @@ The code is structured in six stages as shown in the figure below. The approach 
 
 ## 4 Text Mining the Articles
 
-## 5 Aaaa
+## 5 Time Series for Dictionary Occurrence
 
 ## 6 Visualizing the Results
 
