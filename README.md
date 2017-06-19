@@ -20,6 +20,8 @@ The code is structured in six stages as shown in the figure below. The approach 
 
 ## 5 Time Series for Dictionary Occurrence
 
+Canviar Nom d'aquesta seccio al diagrama.
+
 ## 6 Visualizing the Results
 
 ## An Application in Economic Research
