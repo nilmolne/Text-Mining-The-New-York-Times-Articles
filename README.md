@@ -4,7 +4,7 @@ This project covers step-by-step how to **mine text from The New York Times' onl
 
 ## Introduction 
 
-The code is structured in six stages as shown in the figure below. Each stage is briefly explained along this Readme file.
+The code is structured in six stages as shown in the figure below. The approach to each stage is briefly explained along this Readme file.
 
 <p align="center">
   <img src = "Algorithm.png" height = "75%" width = "75%">
