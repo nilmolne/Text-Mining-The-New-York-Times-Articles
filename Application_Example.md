@@ -8,21 +8,27 @@ Given this scenario, the algorithm went through 710 articles, totaling 598,275 w
 
 The results are presented in Figures 1, 2, 3 and 4. Figure 1 and Figure 2 plot the resulting key word frequencies of the article analysis in a given period of time. Comments were added across the graphs as when the algorithm found a frequency over 10% in a given month, an associated meaningful event of the debt crisis had occurred, including: government debt downgrades or write-offs, bailout executions and capital control impositions.
 
-<div style="text-align: center;">
-<img src = "Figure1.png" height = "65%" width = "65%">
-</div>
 
-<CENTER>
-<img src = "Figure2.png" height = "65%" width = "65%">
-</CENTER>
+<p align="center">
+  <img src = "Figure1.png" height = "75%" width = "75%">
+</p>
+
+
+<p align="center">
+  <img src = "Figure2.png" height = "75%" width = "75%">
+</p>
 
 On Figure 3, the same results as in Figure 1 and 2 are plotted but in a single graph and without the added comments. The amount of monthly published articles is also put on a secondary axis. Two things can be observed. On one hand, the amount of articles labeled as geolocated in Greece by The New York Times continuously increased from 2004 to 2015. This suggests that the normalized frequency of occurrence might have to be further normalized by the amount of articles analyzed each month. On the other hand, by means of correlation calculations, we see that in the period from 2008 to 2015, the number of articles analyzed explains the frequency of occurrence well, as opposed to the period ranging from 2004 to 2007. This shows the rational tendency of the media to publish a greater proportion of articles related to a single specific topic when a country is undergoing a crisis.
 
-<a href = "url"><img src = "Figure3.png" align = "middle" height = "65%" width = "65%"></a>
+<p align="center">
+  <img src = "Figure3.png" height = "75%" width = "75%">
+</p>
 
 Finally, on Figure 4, the 10Y Government Bond Yields is plotted along the normalized frequency of occurrence. Using the correlation as a measure of similarity between both time series, we can see that they move similarly as the correlation is found to be 0.5027. If, in addition, we normalize the frequency of occurrence by the amount of monthly articles published, the correlation gets slightly better and accounts for 0.5698 **showing that the words in the dicctionary have a strong explanatory power over the 10Y Greek Government Bond Yield over the last decade**.
 
-<a href = "url"><img src = "Figure4.png" align = "middle" height = "65%" width = "65%"></a>
+<p align="center">
+  <img src = "Figure4.png" height = "75%" width = "75%">
+</p>
 
 ## Conclusions
 
