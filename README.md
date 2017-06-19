@@ -16,7 +16,7 @@ The code is structured in six stages as the figure below shows.
 
 ## An Application in Economic Research
 
-Finally, if you are curious about how can this algorithm be used in Economic Research, take a look at the application in the repository or **click here**.
+Finally, if you are curious about how can this algorithm be used in Economic Research, take a look at the application proposed in the repository or **click here**.
 
 Enjoy!
 
