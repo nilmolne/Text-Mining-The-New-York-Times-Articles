@@ -12,13 +12,15 @@ The code is structured in six stages as the figure below shows.
 
 ## 1 Building the Article Database
 
-## 2 Scraping Article Content
+## 2 Scarping Article Content
 
 ## 3 Analytical Article Pre-processing
 
 ## 4 Text Mining the Articles
 
-## 5 Visualizing the Time Series
+## 5 Aaaa
+
+## 6 Visualizing the Results
 
 ## An Application in Economic Research
 
