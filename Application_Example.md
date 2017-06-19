@@ -13,7 +13,7 @@ The results are presented in Figures 1, 2, 3 and 4. Figure 1 and Figure 2 plot t
 </div>
 
 <CENTER>
-<img src = "Figure2.png" align = "middle" height = "65%" width = "65%">
+<img src = "Figure2.png" height = "65%" width = "65%">
 </CENTER>
 
 On Figure 3, the same results as in Figure 1 and 2 are plotted but in a single graph and without the added comments. The amount of monthly published articles is also put on a secondary axis. Two things can be observed. On one hand, the amount of articles labeled as geolocated in Greece by The New York Times continuously increased from 2004 to 2015. This suggests that the normalized frequency of occurrence might have to be further normalized by the amount of articles analyzed each month. On the other hand, by means of correlation calculations, we see that in the period from 2008 to 2015, the number of articles analyzed explains the frequency of occurrence well, as opposed to the period ranging from 2004 to 2007. This shows the rational tendency of the media to publish a greater proportion of articles related to a single specific topic when a country is undergoing a crisis.
