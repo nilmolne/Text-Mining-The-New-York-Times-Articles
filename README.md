@@ -12,7 +12,11 @@ The code is structured in six stages as the figure below shows.
 
 ## 1 Building an Article Database
 
-Finally, if you are curious about how can text mining be used in Economic Research, take a look at the application in the repository.
+
+
+## An Application of Text Mining in Economic Research
+
+Finally, if you are curious about how can **this algorithm** be used in Economic Research, take a look at the application in the repository.
 
 Enjoy!
 
