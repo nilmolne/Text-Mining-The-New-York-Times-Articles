@@ -19,6 +19,7 @@ The New York Times offers developers up to 11 search APIs to retrieve certain in
 With the Article Search API, one can search New York Times articles from Sept. 18, 1851 to today, retrieving the URL to the articles, plus their headlines, abstracts, lead paragraphs, associated multimedia, and other article metadata. Note that the API does not return full raw text of articles but rather returns the article URLs. These URLs can conceivably be used to scrape the full text of the articles of interest, on a later stage.
 
 *The API key can be requested at: http://developer.nytimes.com/signup*
+
 *The nytimesarticle package can be downloaded from: https://pypi.python.org/pypi/nytimesarticle/0.1.0*
 
 ## 2 Scarping Article Content
