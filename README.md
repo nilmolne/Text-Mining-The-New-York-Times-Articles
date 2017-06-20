@@ -28,7 +28,11 @@ Given the corpus of articles we want to analyze; we have to retrieve their conte
 
 HTML language provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Browsers do not display the HTML tags, but use them to interpret the content of the page.
 
-Analyzing many online articles from The New York Times, we found out how their developers structure their HTML code. Article text, the content of an article webpage we are looking forward to scraping within many other text data, is found only under **p tags of class “story-body-text story-content”**. Headliners, commercials, and others are stored in different tags.
+Analyzing many online articles from The New York Times, we found out how their developers structure their HTML code. Article text, the content of an article webpage we are looking forward to scraping within many other text data, is found only under **p tags of class “story-body-text story-content”** or on earlier published articles under the 
+
+class = 'p', itemprop='articleBody')
+
+. Headliners, commercials, and others are stored in different tags.
 
 In this algorithm, we used  BeautifulSoup for pulling data out of the HTML pages. As a result, for each article, we get a string of text including all their paragraphs ready to be pre-processed.
 
