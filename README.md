@@ -34,7 +34,21 @@ This project uses BeautifulSoup for pulling data out of the HTML pages. As a res
 
 ## 3 Analytical Article Pre-processing
 
+Once the corpus is specified, and we have the raw text of each article, the next step is to transform it into a format amenable to analysis. In other words, we want to break each article raw text into tokens. Tokenize involves representing text as a list of words, numbers, punctuation, and potentially other symbols like currency markers, which will become the input for further processing. The result of a tokenization of an article is the so-called bag of words.
+
+A key aspect of text mining is to reduce the dimensionality of bag of words representations to eliminate ‘noise’ to highlight only the articles’ distinctive content. There are a number of techniques available to deal with words that are superfluous to the content of the corpus. The more important are listed below:
+
+1.	Remove punctuation and rare words: ‘In’, ‘at’, ‘the, ‘a’ … are extremely common words but contribute little to distinguishing the content of one article from the content of another. So these so-called stop-words are often dropped from the bag.
+
+2.	Stemming: In practice, it translates to cutting off affixes and counting just stems. For example, the word ‘censoring’ contains the stem ‘censor’ and the affix ‘-ing’. Therefore, ‘censoring’ and ‘censor’ once stemmed would be treated as two instances of the same token.
+
+3.	Case folding: It involves converting all alphabetic tokens to lowercase. In some cases, though, this might change meaning for some nouns. For example, an acronym such as ‘US’ (referring to the United States) is erroneously converted to the pronoun ‘us’.
+
+To tokenize the articles’ string of words, remove punctuation, steam and case fold the bag of words, we used a suite of libraries and programs for symbolic and statistical natural language processing called Natural Language Toolkit (or more commonly NLTK).
+
 ## 4 Text Mining the Articles
+
+To text mine the article this project uses 
 
 ## 5 Time Series for Dictionary Occurrence
 
