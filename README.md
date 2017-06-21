@@ -44,7 +44,7 @@ A key aspect of text mining is to reduce the dimensionality of bag of words repr
 
 3.	Case folding: It involves converting all alphabetic tokens to lowercase. In some cases, though, this might change meaning for some nouns. For example, an acronym such as ‘US’ (referring to the United States) is erroneously converted to the pronoun ‘us’.
 
-To tokenize the articles’ string of words, remove punctuation, steam and case fold the bag of words, we used a suite of libraries and programs for symbolic and statistical natural language processing called Natural Language Toolkit (or more commonly NLTK).
+To tokenize the articles’ string of words, remove punctuation, steam and case fold the bag of words, we use a suite of libraries and programs for symbolic and statistical natural language processing called Natural Language Toolkit (or more commonly NLTK).
 
 ## 4 Text Mining the Articles
 
