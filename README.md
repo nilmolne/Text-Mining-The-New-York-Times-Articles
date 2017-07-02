@@ -1,10 +1,22 @@
 # Text-Mining-The-New-York-Times-Articles
 
-This project covers step-by-step how to **mine text from The New York Times' online articles by using Python given a dictionary of words, time range and country of interest**. At the same time, it enumerates the key steps to follow in any text mining project, and gives an overview of a specific dictionary text mining technique. The intuition behind this technique is that the frequency of words and their occurrence are good indicators of the topic or sentiment expressed in texts.
+This project covers step-by-step how to **mine text from The New York Times' online articles by using Python given a dictionary of words, time range and country of interest**. The algorithm's goal is to return the frequency of words of interest and their occurrence over time as indicators of the topic or sentiment expressed in the article's texts. Note that the idea is not to filter out articles by searching on the article's body, headline and byline for a particular term, but to mine text from all articles indistinctively of their content. The results will be presented as a timeseries on a dataframe.
 
-## Introduction 
+· Jump directly to the code and check how to use the repository's functions here, but before make sure to check the **Constraints** section below.
 
-The code is structured in six stages as shown in the figure below. The approach to each stage is briefly explained along this Readme file.
+· The project was initially built to demonstrate the value economists may gain from a more conscious application of text mining techniques. If you ever wonder how can it be used in the field of economics, check out a simple but relevant example here.
+
+· Find a brief explanation on which the functions of the project are based below.
+
+# Constraints
+
+1. Best when used for foreign articles (non-American): The NYT API allows only for 101 pages of articles for a given date. Being an American journal, the amount of articles tagged as 'local' often exceeds the pages allowed. Hence, the results  lack consistency since the amount of articles left unexplored remain unknown. Bear in mind that when looking for all the articles set and not filtering for a particular term, the amount of articles returned by the API increase considerably. Now, if you need to approach differently the article search, make sure to review the *get_articles_url(...)* function.
+
+2. The results are presented on a monthly basis even though the articles are published daily. Adjust your frequence of interest by tuning the functions *get_monthly_results(...)* and *visualize_results(...)*.
+
+## Introduction to Text Mining
+
+The code is structured in six stages as shown in the figure below. The fundamentals and approach to each stage is briefly explained along this Readme file.
 
 <p align="center">
   <img src = "Algorithm.png" height = "75%" width = "75%">
@@ -48,7 +60,9 @@ To tokenize the articles’ string of words, remove punctuation, steam and case 
 
 ## 4 Text Mining the Articles
 
-To text mine the article this project uses 
+To text mine the article this project uses
+
+The intuition behind this technique is that the frequency of words and their occurrence are good indicators of the topic or sentiment expressed in texts.
 
 ## 5 Time Series for Dictionary Occurrence
 
