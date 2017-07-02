@@ -1,18 +1,27 @@
 # Text-Mining-The-New-York-Times-Articles
 
-This project covers step-by-step how to **mine text from The New York Times' online articles by using Python given a dictionary of words, time range and country of interest**. The algorithm's goal is to return the frequency of words of interest and their occurrence over time as indicators of the topic or sentiment expressed in the article's texts. Note that the idea is not to filter out articles by searching on the article's body, headline and byline for a particular term, but to mine text from all articles indistinctively of their content. The results will be presented as a timeseries on a dataframe.
+This project aims at **mining text from The New York Times' online articles by using Python given a dictionary of words, time range and country**.
 
-· Jump directly to the code and check how to use the repository's functions here, but before make sure to check the **Constraints** section below.
+For the collection of articles tagged as being geolocated in a country of interest, the algorithm's goal is to return the frequency of the words in the dictionary and their occurrence over time as they might be potential indicators of the topic or sentiment expressed in the article's texts. Note that the idea is not to filter out articles by searching on the article's body, headline and byline for a particular term, but to mine text from all articles indistinctively of their content. The results will be presented as a timeseries on a dataframe.
+
+· Before jumping directly to the code and check how to use the repository's functions here, make sure to check the **constraints** section below.
 
 · The project was initially built to demonstrate the value economists may gain from a more conscious application of text mining techniques. If you ever wonder how can it be used in the field of economics, check out a simple but relevant example here.
-
-· Find a brief explanation on which the functions of the project are based below.
 
 # Constraints
 
 1. Best when used for foreign articles (non-American): The NYT API allows only for 101 pages of articles for a given date. Being an American journal, the amount of articles tagged as 'local' often exceeds the pages allowed. Hence, the results  lack consistency since the amount of articles left unexplored remain unknown. Bear in mind that when looking for all the articles set and not filtering for a particular term, the amount of articles returned by the API increase considerably. Now, if you need to approach differently the article search, make sure to review the *get_articles_url(...)* function.
 
 2. The results are presented on a monthly basis even though the articles are published daily. Adjust your frequence of interest by tuning the functions *get_monthly_results(...)* and *visualize_results(...)*.
+
+
+
+
+
+
+AIXO ANIRÀ AL JUPYTER NOTBOOK
+
+
 
 ## Introduction to Text Mining
 
@@ -56,7 +65,7 @@ A key aspect of text mining is to reduce the dimensionality of bag of words repr
 
 3.	Case folding: It involves converting all alphabetic tokens to lowercase. In some cases, though, this might change meaning for some nouns. For example, an acronym such as ‘US’ (referring to the United States) is erroneously converted to the pronoun ‘us’.
 
-To tokenize the articles’ string of words, remove punctuation, steam and case fold the bag of words, we use a suite of libraries and programs for symbolic and statistical natural language processing called Natural Language Toolkit (or more commonly NLTK).
+To tokenize the articles’ string of words, remove punctuation, steam and case fold the bag of words, we use a suite of libraries and programs for symbolic and statistical natural language processing NLTK (Natural Language Toolkit).
 
 ## 4 Text Mining the Articles
 
@@ -69,10 +78,4 @@ The intuition behind this technique is that the frequency of words and their occ
 Canviar Nom d'aquesta seccio al diagrama.
 
 ## 6 Visualizing the Results
-
-## An Application in Economic Research
-
-Finally, if you are curious about how can this algorithm be used in Economic Research, take a look at the application proposed in the repository or **click here**.
-
-Enjoy!
 
