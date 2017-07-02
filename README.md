@@ -2,7 +2,7 @@
 
 This project aims at **mining text from The New York Times' online articles by using Python given a dictionary of words, time range and country of interest**.
 
-For the collection of articles tagged as being geolocated in a specific country, the algorithm's goal is to return the frequency of the words in the dictionary and their occurrence over time as they might be potential indicators of the topic or sentiment expressed in the article's texts. Note that the idea is not to filter out articles by searching on the article's body, headline and byline for a particular term, but to mine text from all articles indistinctively of their content. The results will be presented as a timeseries on a dataframe.
+For the collection of NYT articles tagged as being geolocated in a specific country, the algorithm's goal is to return the frequency of the words in the dictionary and their occurrence over time as they might be potential indicators of the topic or sentiment expressed in the article's texts. Note that the idea is not to filter out articles by searching on the article's body, headline and byline for a particular term, but to mine text from all articles indistinctively of their content. The results will be presented as a timeseries on a dataframe.
 
 · Before jumping directly to the code and check how to use the repository's functions here, make sure to check the **constraints** section below.
 
