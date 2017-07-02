@@ -79,3 +79,8 @@ Canviar Nom d'aquesta seccio al diagrama.
 
 ## 6 Visualizing the Results
 
+## Conclusions
+
+This application shows how text mining can add value to economic research by means of a dictionary text mining technique. Nevertheless, this technique is only a deductive approach in that it starts with a predefined list of words, motivated by a general theory as to why these words matter. The strengths of this approach are simplicity and scalability. Code for its implementation is typically simple, and can be applied easily to massive text files. However, the weakness of this approach is its focus only on words pre-judged by the researcher to be informative while ignoring all other words.
+
+Some other more advanced approaches not discussed in this work like Latent Semantic Analysis, Latent Dirichlet Allocation and Descending Hierarchical Classification look for thematic patterns in a particular corpus without claiming that these patterns hold in other documents. The main strength of these techniques is that they analyze all words within the corpus and yield more sophisticated statistical outputs. Their main disadvantage is programming complexity.
