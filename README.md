@@ -6,7 +6,7 @@ The algorithm returns the frequency of the words in the dictionary and their occ
 
 · Before jumping directly to the code and check how to use the repository's functions here, make sure to check the **constraints** section [below](https://github.com/nilmolne/Text-Mining-The-New-York-Times-Articles/blob/master/README.md#considerations-and-constraints).
 
-· The project was initially built to demonstrate the value economists may gain from a more conscious application of text mining techniques. If you ever wonder how can it be used in the field of economics, check out a simple but relevant example [here]().
+· The project was initially built to demonstrate the value economists may gain from a more conscious application of text mining techniques. If you ever wonder how can it be used in the field of economics, check out a simple but relevant example [here](https://github.com/nilmolne/Text-Mining-The-New-York-Times-Articles/tree/master/Example%20in%20Economics#application-example-in-economics).
 
 *Don't forget to check the NYT API Terms of Service [here](https://developer.nytimes.com/tou), particularly if you are planning to use their articles for more than a learning exercise.*
 
