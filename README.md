@@ -14,6 +14,6 @@ The algorithm returns the frequency of the words in the dictionary and their occ
 
 1. Best when used for NYT foreign news articles:
 
-⋅⋅⋅ The API allows only for 101 pages of articles for a given date. Being an American journal, the amount of articles tagged as 'local' often exceeds the pages allowed. Hence, the results lack consistency since the amount of articles left unexplored remain unknown. Bear in mind that when looking for all the articles set and not filtering for a particular term, the amount of articles returned by the API increase considerably. Now, if you need to approach the construction of the article corpus differently, make sure to review the *get_articles_url(...)* function.
+  * The API allows only for 101 pages of articles for a given date. Being an American journal, the amount of articles tagged as 'local' often exceeds the pages allowed. Hence, the results lack consistency since the amount of articles left unexplored remain unknown. Bear in mind that when looking for all the articles set and not filtering for a particular term, the amount of articles returned by the API increase considerably. Now, if you need to approach the construction of the article corpus differently, make sure to review the *get_articles_url(...)* function.
 
 3. Time resolution of the results: The frequency of occurrence of the words in the dictionary is presented on a monthly basis even though the articles are published daily. Adjust your resolution of interest by tuning the functions *get_monthly_results(...)* and *visualize_results(...)*.
