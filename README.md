@@ -12,12 +12,10 @@ The algorithm returns the frequency of the words in the dictionary and their occ
 
 ## Considerations and Constraints
 
-1. The frequency of occurrence of the words in the dictionary is presented on a monthly basis even though the articles are published on a given day. The results of the text mining will be expressed in two forms:
+1. The frequency of occurrence of the words in the dictionary is presented on a monthly basis even though the articles are published on a given day. Hence, the results of the text mining process are expressed in this form:
   
-  * In the first form, all calculated frequencies for each article within a month, for all months analyzed, are summed to give an added normalized frequency of occurrence on a monthly basis. Previously, each article's frequency is normalized by its amount of words.
-  
-  * The results are also presented in second form: Each month's added normalized frequency of occurrence is further normalized by the amount of articles published in that given month.
-
+  * All calculated frequencies of occurrence for each article within a month, for all months analyzed, are summed to give a monthly added frequency of occurrence which is later normalized by the amount of published articles in that given month.
+ 
 
 2. Best when used for NYT foreign news articles:
 
