@@ -8,7 +8,7 @@ The algorithm returns the frequency of the words in the dictionary and their occ
 
 · The project was initially built to demonstrate the value economists may gain from a more conscious application of text mining techniques. If you ever wonder how can it be used in the field of economics, check out a simple but relevant example here.
 
-*Don't forget to check the NYT API Terms of Service [here](https://developer.nytimes.com/tou), particularly if you're using their articles for more than a learning exercise.*
+*Don't forget to check the NYT API Terms of Service [here](https://developer.nytimes.com/tou), particularly if you are planning to use their articles for more than a learning exercise.*
 
 ## Constraints
 
