@@ -26,4 +26,4 @@ The algorithm returns the frequency of the words in the dictionary and their occ
 
 3. Time resolution of the results:
 
-As pointed out on the first consideration, the frequency of occurrence of the words in the dictionary is presented and normalized on a monthly basis. However, feel free to adjust your resolution of interest by tuning the functions *get_monthly_results(...)* and *visualize_results(...)*.
+  * As pointed out on the first consideration, the frequency of occurrence of the words in the dictionary is presented and normalized on a monthly basis. However, feel free to adjust your resolution of interest by tuning the functions *get_monthly_results(...)* and *visualize_results(...)*.
