@@ -14,9 +14,9 @@ The algorithm returns the frequency of the words in the dictionary and their occ
 
 1. The frequency of occurrence of the words in the dictionary is presented on a monthly basis even though the articles are published on a given day. The results of the text mining will be expressed in two forms:
   
-  * All calculated frequencies for each article within a month, fora all months analysed, are summed to give an added normalized frequency of occurrence on a monthly basis.
+  * In the first form, all calculated frequencies for each article within a month, for all months analysed, are summed to give an added normalized frequency of occurrence on a monthly basis. Previously, each article's frequency is normalized by its amount of words.
   
-  * 
+  * The results are also presented in second form: Each month's added normalized frequency of occurrence is further normalized by the amount of articles published in that given month.
 
 
 2. Best when used for NYT foreign news articles:
@@ -25,4 +25,5 @@ The algorithm returns the frequency of the words in the dictionary and their occ
   
   * Bear in mind that when looking for all news articles published and not filtering for a particular term, the amount of articles returned by the API increase considerably. Now, if you need to approach the construction of the article corpus differently, make sure to review the *get_articles_url(...)* function.
 
-3. Time resolution of the results: The frequency of occurrence of the words in the dictionary is presented on a monthly basis even though the articles are published daily. Adjust your resolution of interest by tuning the functions *get_monthly_results(...)* and *visualize_results(...)*.
+
+3. Time resolution of the results: As pointed out in the first consideration, the frequency of occurrence of the words in the dictionary is presented on a monthly basis. However, make sure to adjust your resolution of interest by tuning the functions *get_monthly_results(...)* and *visualize_results(...)*.
