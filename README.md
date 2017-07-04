@@ -8,6 +8,8 @@ The algorithm returns the frequency of the words in the dictionary and their occ
 
 · The project was initially built to demonstrate the value economists may gain from a more conscious application of text mining techniques. If you ever wonder how can it be used in the field of economics, check out a simple but relevant example here.
 
+*Don't forget to check the NYT API Terms of Service [here](https://developer.nytimes.com/tou), particularly if you're using their articles for more than a learning exercise.*
+
 ## Constraints
 
 1. Best when used for NYT foreign articles: The API allows only for 101 pages of articles for a given date. Being an American journal, the amount of articles tagged as 'local' often exceeds the pages allowed. Hence, the results lack consistency since the amount of articles left unexplored remain unknown. Bear in mind that when looking for all the articles set and not filtering for a particular term, the amount of articles returned by the API increase considerably. Now, if you need to approach the construction of the article corpus differently, make sure to review the *get_articles_url(...)* function.
