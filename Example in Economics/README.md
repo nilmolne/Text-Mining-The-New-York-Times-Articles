@@ -1,6 +1,6 @@
 # Application Example in Economics
 
-The purpose of this example is to demonstrate the value economists may gain from a more conscious application of text mining techniques by means of an example based on tracking the Greek government-debt crisis crisis of this last decade.
+The purpose of this example is to demonstrate the value economists may gain from a more conscious application of text mining techniques by means of an example based on tracking the Greek government-debt crisis of this last decade.
 
 First, we input a time range from 2004 to 2015, to make sure our analysis spans events of interest. Second, the algorithm retrieves only articles published by The New York Times tagged as being geolocated in Greece. Furthermore, only articles labeled as news were taken into account. Articles falling into the category of blog or brief were filtered out prior to the pre-processing stage. Third, our dictionary consisted of: ‘Financial Crisis’, ‘Economic Recession’, and ‘Bank Run’, as we thought it would be a representative dictionary of the events we are looking to track. In addition, as an economic indicator to compare our results with, the 10Y Greek Government Bond Yield was selected.
 
